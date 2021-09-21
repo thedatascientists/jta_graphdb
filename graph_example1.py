@@ -6,7 +6,7 @@ import traceback
 ENDPOINT = 'jtacosmos.gremlin.cosmosdb.azure.com'
 DATABASE = 'revAttrDB'
 COLLECTION = 'graphCollection'
-PRIMARY_KEY = '1MiVl7ZaA8xpILwTFJCFN07Bjjd3Ln5cpjEXjQi46E3L5qA0sFoVhjc836OP0oQA31PRjQBqe9SvPymgm2teTA=='
+PRIMARY_KEY = 'SECRET_KEY'
 
 _gremlin_cleanup_graph = "g.V().drop()"
 

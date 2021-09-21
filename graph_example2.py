@@ -46,7 +46,7 @@ def handler():
     print('Initialising client...')
     gremlin_client = client.Client('wss://jtacosmos.gremlin.cosmosdb.azure.com:443/','g', 
             username="/dbs/revAttrDB/colls/graphCollection", 
-            password="1MiVl7ZaA8xpILwTFJCFN07Bjjd3Ln5cpjEXjQi46E3L5qA0sFoVhjc836OP0oQA31PRjQBqe9SvPymgm2teTA==",
+            password="SECRET_KEY",
             message_serializer= serializer.GraphSONSerializersV2d0()
         )
     print('Client initialised!')
